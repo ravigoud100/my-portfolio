@@ -19,31 +19,31 @@ const EXPERIENCE = [
   {
     role: "Senior Full Stack Developer",
     company: "Dartmouth Health — Lebanon, NH (Remote)",
-    date: "Jun 2024 – Present",
+    date: "Aug 2024 – Present",
     points: [],
   },
   {
     role: "Full Stack Developer",
     company: "Keefe Group — Bridgeton, MO",
-    date: "Mar 2022 – May 2024",
+    date: "Nov 2022 – Jul 2024",
     points: [],
   },
   {
     role: "Full Stack Developer",
     company: "Mastercard — O'Fallon, MO",
-    date: "Mar 2021 – Feb 2022",
+    date: "Jul 2021 – Oct 2022",
     points: [],
   },
   {
     role: "Full Stack Developer",
     company: "Michaels Stores — Chicago, IL",
-    date: "Jan 2020 – Feb 2021",
+    date: "Feb 2020 – Jun 2021",
     points: [],
   },
   {
     role: "Software Developer",
     company: "CouponDunia — Mumbai, India",
-    date: "Jan 2019 – Dec 2019",
+    date: "Sep 2018 – Jan 2020",
     points: [],
   },
 ];
