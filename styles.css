@@ -273,21 +273,6 @@ a { color: inherit; text-decoration: none; }
   50% { opacity: 0.4; transform: scale(1.5); }
 }
 
-.entry__index {
-  position: absolute;
-  right: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 0;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
-  color: color-mix(in srgb, var(--accent) 12%, transparent);
-  line-height: 1;
-  pointer-events: none;
-  user-select: none;
-}
-
 /* ---------- cards ---------- */
 .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.1rem; }
 .card {
@@ -341,7 +326,6 @@ a { color: inherit; text-decoration: none; }
   .entry { grid-template-columns: var(--date-col) 1fr; row-gap: 0.3rem; }
   .entry__datecol { grid-column: 2; flex-direction: row; align-items: baseline; gap: 0.5rem; }
   .entry__content { grid-column: 2; }
-  .entry__index { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

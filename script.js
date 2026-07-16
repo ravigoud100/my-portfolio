@@ -74,7 +74,6 @@ if (timeline) {
     ${EXPERIENCE.map((e, i) => {
       const { year, months } = parseEntryDate(e.date);
       const isPresent = /present/i.test(e.date);
-      const indexLabel = String(EXPERIENCE.length - i).padStart(2, "0");
       return `
     <article class="entry reveal" style="--i:${i}">
       <div class="entry__datecol">
@@ -89,7 +88,6 @@ if (timeline) {
         </div>
         <p class="entry__company">${e.company}</p>
       </div>
-      <span class="entry__index" aria-hidden="true">${indexLabel}</span>
     </article>`;
     }).join("")}
   `;
